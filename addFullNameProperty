@@ -1,0 +1,7 @@
+function addFullNameProperty(obj) {
+var arreglo = Object.values(obj);
+var nombreCompleto = arreglo.join(" ");
+return nombreCompleto;
+}
+
+module.exports = addFullNameProperty;
